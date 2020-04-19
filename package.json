@@ -1,0 +1,30 @@
+{
+  "name": "saab-tools-finance-api",
+  "version": "1.0.0",
+  "description": "Set of APIs for the Saab Tools Finance module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "handler-list": "ts-node api/list.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fesaab/saab-tools-finance-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fesaab/saab-tools-finance-api/issues"
+  },
+  "homepage": "https://github.com/fesaab/saab-tools-finance-api#readme",
+  "dependencies": {
+    "aws-sdk": "^2.658.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.0",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3"
+  }
+}
