@@ -1,0 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.constants = Object.freeze({
+    AWS_REGION: "us-east-1",
+    ENV_VAR_DYNAMODB_TABLE_TRANSACTIONS: "transactionTableName"
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29uc3RhbnRzLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiY29uc3RhbnRzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQWEsUUFBQSxTQUFTLEdBQUcsTUFBTSxDQUFDLE1BQU0sQ0FBQztJQUNuQyxVQUFVLEVBQUUsV0FBVztJQUN2QixtQ0FBbUMsRUFBRSxzQkFBc0I7Q0FDOUQsQ0FBQyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IGNvbnN0YW50cyA9IE9iamVjdC5mcmVlemUoe1xyXG4gICAgQVdTX1JFR0lPTjogXCJ1cy1lYXN0LTFcIixcclxuICAgIEVOVl9WQVJfRFlOQU1PREJfVEFCTEVfVFJBTlNBQ1RJT05TOiBcInRyYW5zYWN0aW9uVGFibGVOYW1lXCJcclxufSk7Il19
