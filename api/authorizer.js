@@ -33,8 +33,12 @@ exports.handler = function(event, context, callback) {
     condition.IpAddress = {};
      
     if (headers.Authorization === process.env.AUTHORIZATION_HEADER) {
-        callback(null, generateAllow('me', event.methodArn));
+        var generatedPolicy = generateAllow('me', event.methodArn);
+        console.log("Header valid! Generated policy:");
+        console.log(JSON.stringify(generatedPolicy));
+        callback(null, generatedPolicy);
     }  else {
+        console.log("Header invalid! Unauthorized!!");
         callback("Unauthorized");
     }
 }

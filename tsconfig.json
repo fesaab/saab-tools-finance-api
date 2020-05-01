@@ -13,11 +13,11 @@
     "noUnusedParameters": false,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": false,
-    "inlineSourceMap": true,
     "inlineSources": true,
     "experimentalDecorators": true,
     "strictPropertyInitialization":false,
-    "typeRoots": ["./node_modules/@types"]
+    "typeRoots": ["./node_modules/@types"],
+    "inlineSourceMap": true
   },
   "exclude": ["cdk.out"]
 }

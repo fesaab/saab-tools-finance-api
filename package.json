@@ -7,6 +7,7 @@
     "build": "tsc",
     "watch": "tsc -w",
     "handler-list": "ts-node api/list.ts",
+    "handler-category": "ts-node api/category.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
