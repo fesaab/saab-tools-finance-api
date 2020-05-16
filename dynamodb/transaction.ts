@@ -170,7 +170,7 @@ export class TransactionRepository {
             date: Date.parse(item?.date.S || ""),
             description: item?.description.S,
             category: item?.category.S,
-            reversed: item?.reversed.BOOL,
+            reversed: item?.reversed.N == "1",
             smsId: item?.smsId.S
         };
     }

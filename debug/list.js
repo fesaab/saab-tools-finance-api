@@ -1,5 +1,5 @@
 const api = require("../api/list");
-api.handler({
+let response = api.handler({
     "resource": "/transactions",
     "path": "/transactions",
     "httpMethod": "GET",
@@ -72,13 +72,10 @@ api.handler({
         ]
     },
     "queryStringParameters": {
-        "startDate": "2020-04-01",
-        "endDate": "2020-04-15"
+        "startDate": "2020-05-08",
+        "endDate": "2020-05-09"
     },
     "multiValueQueryStringParameters": {
-        "startDate": [
-            "2020-04-01?teste=1234"
-        ]
     },
     "pathParameters": null,
     "stageVariables": null,
@@ -119,3 +116,5 @@ api.handler({
     "body": null,
     "isBase64Encoded": false
 });
+
+console.log(response);
