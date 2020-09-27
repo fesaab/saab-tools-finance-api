@@ -32,6 +32,36 @@
                 "transactionTableName": "Transactions",
                 "categoriesMappingTableName": "TransactionsCategoryMapping"
             }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "debug monthPeriodList.ts",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\debug\\monthPeriodList.js",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "env": { 
+                "monthPeriodTableName": "MonthPeriod"
+            }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "debug monthPeriodUpdate.ts",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\debug\\monthPeriodUpdate.js",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "env": { 
+                "monthPeriodTableName": "MonthPeriod"
+            }
         }
     ]
 }
